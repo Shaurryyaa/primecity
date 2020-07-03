@@ -162,7 +162,7 @@ exports.start = function(SETUP) {
     .setColor(0x2894C2)
     .setFooter(TICK_N % 2 === 0 ? '⚪ PrimeCity' : '⚫ PrimeCity')
     .setTimestamp(new Date())
-    .addField('\n\u200b\nIP: **139.99.124.144:30125**','*Before You Join Please Read the Rules and* ***Join TokoVoip*** **139.99.124.144:9056.** ',false)
+    .addField('\n\u200b\nIP: **139.99.124.144:30125** , TokoVoip: **139.99.124.144:9056**','*Before You Join Please Read the Rules and Join TokoVoip.*',false)
     if (STATUS !== undefined)
     {
       embed.addField(':warning: Actuele server status:',`${STATUS}\n\u200b\n`);

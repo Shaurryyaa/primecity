@@ -158,11 +158,11 @@ exports.start = function(SETUP) {
   const UpdateEmbed = function() {
     let dot = TICK_N % 2 === 0 ? 'Roofstad' : 'Roleplay';
     let embed = new Discord.RichEmbed()	
-    .setAuthor("Prime City Roleplay Status", "https://cdn.discordapp.com/attachments/727833288382873601/728522979620814858/image0.png")
+    .setAuthor("Prime City Roleplay", "https://cdn.discordapp.com/attachments/727833288382873601/728522979620814858/image0.png")
     .setColor(0x2894C2)
     .setFooter(TICK_N % 2 === 0 ? '⚪ PrimeCity' : '⚫ PrimeCity')
     .setTimestamp(new Date())
-    .addField('\n\u200b\nHow to Join Server?','You can join the server by entering ** Prime City Roleplay ** at ***PLAY*** or by **139.99.124.144:30125** in ***History***.At the bottom is the server status to see how many people are online and in the queue.',false)
+    .addField('\n\u200b\nIP: **139.99.124.144:30125**','*Before You Join Please Read the Rules and Join TokoVoip.* ',false)
     if (STATUS !== undefined)
     {
       embed.addField(':warning: Actuele server status:',`${STATUS}\n\u200b\n`);

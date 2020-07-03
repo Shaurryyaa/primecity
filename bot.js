@@ -159,7 +159,7 @@ exports.start = function(SETUP) {
     let dot = TICK_N % 2 === 0 ? 'Roofstad' : 'Roleplay';
     let embed = new Discord.RichEmbed()	
     .setAuthor("Prime City Roleplay Status", "https://cdn.discordapp.com/attachments/727833288382873601/728522979620814858/image0.png")
-    .setColor(0x2894C2)
+    .set(0x000000)
     .setFooter(TICK_N % 2 === 0 ? '⚪ PrimeCity' : '⚫ PrimeCity')
     .setTimestamp(new Date())
     .addField('\n\u200b\nIP: **139.99.124.144:30125** , TokoVoip: **139.99.124.144:9056**','Before you join please read the rules and join TokoVoip.\n\u200b\n',false)

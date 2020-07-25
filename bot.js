@@ -158,7 +158,7 @@ exports.start = function(SETUP) {
   const UpdateEmbed = function() {
     let dot = TICK_N % 2 === 0 ? 'Roofstad' : 'Roleplay';
     let embed = new Discord.RichEmbed()	
-    .setAuthor("Prime City Roleplay Status", "https://cdn.discordapp.com/attachments/727833288382873601/728522979620814858/image0.png")
+    .setAuthor("Prime City Roleplay", "https://cdn.discordapp.com/attachments/727833288382873601/728522979620814858/image0.png")
     .setColor(0x2894C2)
     .setFooter(TICK_N % 2 === 0 ? '⚪ PrimeCity' : '⚫ PrimeCity')
     .setTimestamp(new Date())
